@@ -1,0 +1,59 @@
+[
+   {
+      "id":1,
+      "label":"360 Training",
+      "inode":true,
+      "checkbox":true,
+      "radio":true,
+	  "open":true,
+      "branch":
+       [
+         {
+            "id":2,
+            "label":"Technology",
+            "inode":true,
+            "checkbox":true,
+            "radio":true,
+			"open":true,
+            "branch":
+             [
+                 {
+                    "id":3,
+                    "label":"Development",
+                    "inode":false,
+                    "checkbox":true,
+                    "radio":true
+                 },
+                 {
+                    "id":4,
+                    "label":"NOC",
+                    "inode":false,
+                    "checkbox":true,
+                    "radio":true
+                 },
+                 {
+                    "id":5,
+                    "label":"Corp IT",
+                    "inode":false,
+                    "checkbox":true,
+                    "radio":true
+                 },
+                 {
+                    "id":6,
+                    "label":"Performance Management",
+                    "inode":false,
+                    "checkbox":true,
+                    "radio":true
+                 },
+                 {
+                    "id":7,
+                    "label":"Professional Services",
+                    "inode":false,
+                    "checkbox":true,
+                    "radio":true
+                  }
+           ]                             
+         }
+      ]
+   }
+]

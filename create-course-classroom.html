@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+   <meta charset="utf-8" />
+   <title>Classroom Course</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+   <meta content="" name="description" />
+   <meta content="" name="author" />
+   <meta name="MobileOptimized" content="320">
+   <!-- BEGIN GLOBAL MANDATORY STYLES -->          
+   <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+   <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+   <link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+   <link href="assets/plugins/icomoon/style.css" rel="stylesheet" type="text/css"/>
+   <!-- END GLOBAL MANDATORY STYLES -->
+   <!-- BEGIN PAGE LEVEL STYLES --> 
+   <link href="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.css" rel="stylesheet"/>
+   <link rel="stylesheet" type="text/css" href="assets/plugins/select2/select2_metro.css" />
+   <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-datepicker/css/datepicker.css" />
+   <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.css" />
+   <link rel="stylesheet" type="text/css" href="assets/plugins/jquery-tags-input/jquery.tagsinput.css" />
+   <!-- END PAGE LEVEL SCRIPTS -->
+   <!-- BEGIN THEME STYLES --> 
+   <link href="assets/css/style-360factors.css" rel="stylesheet" type="text/css"/>
+   <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+   <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+   <link href="assets/css/plugins.css" rel="stylesheet" type="text/css"/>
+   <link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+   <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+   <!-- END THEME STYLES -->
+   <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed page-full-width">
+   <!-- BEGIN HEADER -->   
+	<div class="header navbar navbar-inverse navbar-fixed-top">
+		<!-- BEGIN TOP NAVIGATION BAR -->
+		<div class="header-inner">
+			<!-- BEGIN LOGO -->
+			<a class="navbar-brand" href="#">
+			<img src="assets/img/360training-logo.png" alt="logo" class="img-responsive" />
+			</a>
+			<!-- END LOGO -->
+			<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+			<a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+         		<i class="icon-reorder"></i>
+            </a>          
+			<!-- END RESPONSIVE MENU TOGGLER -->    
+			<!-- BEGIN TOP NAVIGATION MENU -->
+			<ul class="nav navbar-nav pull-right">
+				<!-- BEGIN LEARNER MODE DROPDOWN -->
+				<li class="dropdown mode">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<span class="username">Author</span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#"> Manager</a></li>
+						<li><a href="#"> Instructor</a></li>
+						<li><a href="#"> Administrator</a></li>
+					</ul>
+				</li>
+                <!-- END LEARNER MODE DROPDOWN -->
+				<!-- BEGIN USER LOGIN DROPDOWN -->
+				<li class="dropdown user">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<img alt="" src="assets/img/profile/avatar_small.png"/>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="profile.html"><i class="icon-user"></i>Profile</a></li>
+						<li class="divider"></li>
+						<li><a href="javascript:;" id="trigger_fullscreen"><i class="icon-move"></i> Full Screen</a></li>
+						<li><a href="index.html"><i class="icon-key"></i> Log Out</a></li>
+					</ul>
+				</li>
+				<!-- END USER LOGIN DROPDOWN -->
+			</ul>
+			<!-- END TOP NAVIGATION MENU -->
+            <!-- BEGIN HORIZANTAL MENU -->
+			<div class="hor-menu hidden-sm hidden-xs">
+              <ul class="nav navbar-nav">
+                  <li>
+                      <a href="sf-page1.html" >Library</a>
+                  </li>
+              </ul>
+              
+              <ul class="nav navbar-nav nav-system">
+                  <li class="active">
+                      <a href="create.html">Create</a>
+                  </li>
+                  <li>
+                      <a href="search.html">Search</a>
+                  </li>
+                  <li class="">
+	                  <a href="" class="dropdown-toggle" data-close-others="true" data-hover="dropdown" data-toggle="dropdown">Explore
+						<i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="profile.html"><i class="ico-file-pdf"></i> User Guide</a></li>
+                          <li><a href="#"><i class="ico-support"></i> Support</a></li>
+                          <li><a href="#"><i class="icon-bullhorn"></i> What's New</a></li>
+                          <li><a href="#"><i class="icon-comment-alt"></i> Blogs</a></li>
+                          <li><a href="#"><i class="icon-facebook"></i> Facebook</a></li>
+                          <li><a href="#"><i class="icon-heart"></i> Showcase</a></li>
+                          <li><a href="#"><i class="ico-bulb"></i> Opportunities</a></li>
+                          <li><a href="#"><i class="ico-play2"></i> Videos</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+			<!-- END HORIZANTAL MENU -->
+            <!-- BEGIN BREADCRUMBS-->   
+            <div class="page-title-container">
+              <div class="col-md-12">
+                 <ul class="page-breadcrumb breadcrumb">
+                    <li><a href="create.html">Create</a>
+                        <i></i>
+                    </li>
+                    <li><a href="#">Classroom Course</a></li>
+                 </ul>
+              </div>
+            </div>
+            <!-- END BREADCRUMBS-->
+		</div>
+		<!-- END TOP NAVIGATION BAR -->
+	</div>
+   <!-- END HEADER -->
+   <div class="clearfix"></div>
+   <!-- BEGIN CONTAINER -->
+   <div class="page-container">
+      <!-- BEGIN PAGE -->  
+      <div class="page-content">
+         <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+         <div id="stack1" class="modal fade" tabindex="-1" data-width="400">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h4 class="modal-title">Modal Heading</h4>
+                  </div>
+                  <div class="modal-body">
+                     <div class="scroller" style="height:300px" data-always-visible="1" data-rail-visible1="1">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <h4>Some Input</h4>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                           </div>
+                           <div class="col-md-6">
+                              <h4>Some More Input</h4>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="btn green" data-toggle="modal" href="#stack2">Launch modal</a>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn green">Save</button>
+                     <button type="button" data-dismiss="modal" class="btn default">Cancel</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="stack2" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h4 class="modal-title">Modal Heading</h4>
+                  </div>
+                  <div class="modal-body">
+                     <div class="scroller" style="height:300px" data-always-visible="1" data-rail-visible1="1">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h4>Some Input</h4>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                              <p><input type="text" class="col-md-12 form-control"></p>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="btn green" data-toggle="modal" href="#stack3">Launch modal</a>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn green">Save</button>
+                     <button type="button" data-dismiss="modal" class="btn default">Cancel</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="stack3" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h4 class="modal-title">Modal Heading</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                       Duis mollis, est non commodo luctus, nisi erat mattis consectetur purus sit amet porttitor ligula, 
+                       eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn green">Save</button>
+                     <button type="button" data-dismiss="modal" class="btn default">Cancel</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- /.modal -->
+         <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+         
+         <!--BEGIN ERROR PANELS-->
+         <div class="alert alert-danger">
+             <strong>Error!</strong> The daily cronjob has failed.
+         </div>
+         <div class="alert alert-success">
+             <strong>Success!</strong> The daily cronjob has failed.
+         </div>
+         
+         <div class="row">
+         	<div class="col-md-12">
+	         	<a href="#" class="btn default" data-toggle="modal" data-target="#stack1">Modal</a>
+            </div>
+         </div>
+         <div class="clearfix"></div>
+         <br />
+         <!--END ERROR PANELS-->
+         <!--BEGIN COURSE PANEL-->
+         <div class="course-panel">
+            <div class="row">
+                <div class="col-md-12 text-right">
+                	<a href="#" class="btn default">Preview</a> 
+                    <a href="#" class="btn green" onClick="javascript:App.showPleaseWait();">Publish</a>
+                </div>
+            </div>
+         </div>
+         <!--END COURSE PANEL-->
+         <!-- BEGIN PAGE CONTENT-->
+         <div class="row">
+            <div class="col-md-12">
+                <div class="portlet">
+                  <div class="portlet-title">
+                      <div class="caption">Classroom Course</div>
+                  </div>
+                   <div class="portlet-body form">
+                      <!-- BEGIN FORM-->
+                      <form action="#" class="form-horizontal">
+                         <div class="form-body ">
+                            <div class="form-group has-error">
+                               <label  class="col-md-3 control-label">Title <span class="required" aria-required="true"> * </span></label>
+                               <div class="col-md-6">
+                                 <input type="text" class="form-control" placeholder="">
+                                 <span class="help-block"> This field has error. </span>
+                               </div>
+                            </div>
+                            <div class="form-group">
+                               <label  class="col-md-3 control-label">Course ID</label>
+                               <div class="col-md-6">
+                                 <p class="form-control-static">360-145780-321</p>
+                               </div>
+                            </div>
+                            <div class="form-group">
+                               <label class="col-md-3 control-label">Course Status</label>
+                               <div class="col-md-6">
+                                 <p class="form-control-static">Active</p>
+                               </div>
+                            </div>
+                            <div class="form-group">
+                               <label class="col-md-3 control-label">Publish Status</label>
+                               <div class="col-md-6">
+                                 <p class="form-control-static">Published</p>
+                               </div>
+                            </div>
+                            <div class="form-group">
+                               <label class="col-md-3 control-label">Rating</label>
+                               <div class="col-md-6">
+                                 <p class="form-control-static">4.50 / 10</p>
+                               </div>
+                            </div>
+                            <div class="form-group">
+                               <label class="col-md-3 control-label">Description</label>
+                               <div class="col-md-6">
+                                 <textarea class="form-control" placeholder=""></textarea>
+                               </div>
+                            </div>
+                            <div class="form-group">
+                               <label class="col-md-3 control-label">File Path <span class="required" aria-required="true"> * </span></label>
+                               <div class="col-md-6">
+                                 <div class="fileupload fileupload-new" data-provides="fileupload">
+                                    <span class="btn default btn-file">
+                                    <span class="fileupload-new"><i class="icon-paper-clip"></i> Browse</span>
+                                    <span class="fileupload-exists"><i class="icon-undo"></i> Change</span>
+                                    <input type="file" class="default" />
+                                    </span>
+                                    <span class="fileupload-preview" style="margin-left:5px;"></span>
+                                    <a href="#" class="close fileupload-exists" data-dismiss="fileupload" style="float: none; margin-left:5px;"></a>
+                                 </div>
+                               </div>
+                            </div>
+                            <div class="form-group">
+                               <label class="col-md-3 control-label">Language <span class="required" aria-required="true"> * </span></label>
+                               <div class="col-md-6">
+                                   <select class="form-control">
+                                    <option>English</option>
+                                    <option>Dutch</option>
+                                   </select>
+                               </div>
+                            </div>
+                           <div class="form-group">
+                              <label class="control-label col-md-3">Duration (Hours) <span class="required" aria-required="true"> * </span></label>
+                              <div class="col-md-6">
+                                 <input type="text" class="form-control" placeholder="">
+                                 <!-- /input-group -->
+                              </div>
+                           </div>
+                            <div class="form-group">
+                              <label class="col-md-3 control-label">Keywords</label>
+                              <div class="col-md-6"> 
+                                <input id="tags_1" type="text" class="form-control tags" value="" />
+                              </div>
+                            </div>
+                         </div>
+                         <div class="form-actions fluid">
+							<div class="row">
+								<div class="col-md-offset-3 col-md-9">
+								   <button type="submit" class="btn green">Save</button>
+								   <button type="button" class="btn default">Cancel</button>                              
+								</div>
+							</div>
+                         </div>
+                      </form>
+                      <!-- END FORM--> 
+                   </div>
+                </div>
+            </div>
+         </div>
+         <!-- END PAGE CONTENT-->    
+      </div>
+      <!-- END PAGE -->  
+   </div>
+   <!-- END CONTAINER -->
+   <!-- BEGIN FOOTER -->
+   <div class="footer">
+      <div class="footer-inner">
+         2014 &copy; Learner Content Management System.
+      </div>
+      <div class="footer-tools">
+         <span class="go-top">
+         <i class="icon-angle-up"></i>
+         </span>
+      </div>
+   </div>
+   <!-- END FOOTER -->
+   <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+   <!-- BEGIN CORE PLUGINS -->   
+   <!--[if lt IE 9]>
+   <script src="assets/plugins/respond.min.js"></script>
+   <script src="assets/plugins/excanvas.min.js"></script> 
+   <![endif]-->   
+   <script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+   <script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+   <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+   <script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>      
+   <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+   <script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript" ></script>
+   <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+   <script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>  
+   <script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+   <script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script>
+   <!-- END CORE PLUGINS -->
+   <!-- BEGIN PAGE LEVEL PLUGINS -->
+   <script type="text/javascript" src="assets/plugins/select2/select2.min.js"></script>
+   <script type="text/javascript" src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+   <script type="text/javascript" src="assets/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+   <script type="text/javascript" src="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.js"></script>
+   <script type="text/javascript" src="assets/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js"></script>   
+   <script type="text/javascript" src="assets/plugins/jquery.input-ip-address-control-1.0.min.js"></script>
+   <script type="text/javascript" src="assets/plugins/jquery-multi-select/js/jquery.multi-select.js"></script>
+   <script src="assets/plugins/jquery-tags-input/jquery.tagsinput.min.js" type="text/javascript" ></script>
+   <script src="assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" type="text/javascript" ></script>
+   <!-- END PAGE LEVEL PLUGINS -->
+   <!-- BEGIN PAGE LEVEL SCRIPTS -->
+   <script src="assets/scripts/app.js"></script> 
+   <script src="assets/scripts/form-components.js"></script>  
+   <!-- END PAGE LEVEL SCRIPTS -->
+   <script>
+      jQuery(document).ready(function() {    
+          
+         // initiate layout and plugins
+         App.init();
+         FormComponents.init();
+      });
+      
+   </script>
+   <!-- END JAVASCRIPTS -->   
+</body>
+<!-- END BODY -->
+</html>

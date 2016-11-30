@@ -1,0 +1,23 @@
+[
+   {
+      "id":1,
+      "label":"Karachi",
+      "inode":false,
+      "checkbox":true,
+      "radio":true
+   },
+   {
+	  "id":2,
+	  "label":"Austin",
+	  "inode":false,
+	  "checkbox":true,
+	  "radio":true
+   },
+   {
+	  "id":3,
+	  "label":"Manila",
+	  "inode":false,
+	  "checkbox":true,
+	  "radio":true
+   }
+]
